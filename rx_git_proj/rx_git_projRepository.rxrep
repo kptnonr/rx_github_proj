@@ -1,19 +1,61 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<repository
-name="rx_git_projRepository"
+﻿<repository
 id="782a5fc5-c9e1-4c59-a089-37a466577927"
+name="rx_git_projRepository"
 rxversion="8.1">
-  <codegen
-  classname="rx_git_projRepository"
-  namespace="rx_git_proj"/>
-  <rootfolder
-  name="Root"
-  id="3bb2f438-907a-4521-bf73-d81f0bde6e92"
-  searchtimeout="30000ms"
-  capname="unknown"
-  isrooted="True"
-  usecache="True">
-    <basepath/>
-  </rootfolder>
-  <variables/>
+	<codegen
+	classname="rx_git_projRepository"
+	namespace="rx_git_proj">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="3bb2f438-907a-4521-bf73-d81f0bde6e92"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="888a87c5-9591-4fea-86cc-f6151953c5a7"
+		isrooted="True"
+		name="OrangeHRMGoogleChrome"
+		refimgid="cf1f2a01-40de-46a0-881f-3b9f69d2eea4"
+		refpath="/form[@title='OrangeHRM - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="94b8779b-30a7-49f9-a1b4-a9a05504a69c"
+			name="Element1747682544"
+			refimgid="e6a5f4ef-96b4-4141-83ab-e7e4a0b66791"
+			refpath="/form[@title='OrangeHRM - Google Chrome']/element[@controlid='1747682544']"
+			searchtimeout="30000ms">
+				/form[@title='OrangeHRM - Google Chrome']/element[@controlid='1747682544']
+			</item>
+			<basepath>
+				/form[@title='OrangeHRM - Google Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKFSURBVDhPrZJdSFNhHMaXQUFEBaZTZiV1EUQX
+FkRJ6c6m07lvdVPYlujSuygSlOiiEYSQfd10sZp2nFtiu7GPmyBtaoua86smltNzLKQIhGB5BurG
+eXrPOpqjj6se+PHe/H/P/+Xllfz3wCnJmDdrK5lazT3WrB5gK1XDbFWZn5znpk0lmeLYnzNjURWw
+NuMUEcFWl4NIYEylYIwlYAwKsCZljDGVOcTx9AyqC49EqlXfZ81EXCuoKksrYPQU5nQKzBmo86Im
+xunMuHDRvBDWyzEtCH+5AaMjBVo5ZrXFyXmNvEC0JZIDPU2Go676ZK+hCG/Jlg9k86duN16OLPDP
+wos8M/Ec8z4jvnhO4FvvcXB9hYg/LhoUdVLga3Ttf9CI2ktVGKo4CdbjxmU/B+PNOAwE25043s9E
+kQgokQwUIzlUhGSweBl+y+ZUQb6vsT/fdwYH6QbcqqEQGP26LutuEK7H0faIw3KkFXxICX5ECYQJ
+o7ptqYI8T31wr9eBfT4H9NfseBJegl4QRVlLaO3hsBK9CoyrCKWEEvBv1DtSBbKuur493gYICEWv
+J6dXKm//kjXtHPzBGJKRBlEuBT9GbhJVb00V5NL2Vll3PdZQP3ViILKIZi+HJvcSPIEYJibvp21P
+hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
+0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
+01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
 </repository>

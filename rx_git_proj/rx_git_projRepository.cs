@@ -27,6 +27,7 @@ namespace rx_git_proj
     public partial class rx_git_projRepository : RepoGenBaseFolder
     {
         static rx_git_projRepository instance = new rx_git_projRepository();
+        rx_git_projRepositoryFolders.OrangeHRMGoogleChromeAppFolder _orangehrmgooglechrome;
 
         /// <summary>
         /// Gets the singleton class instance representing the rx_git_projRepository element repository.
@@ -43,6 +44,7 @@ namespace rx_git_proj
         public rx_git_projRepository() 
             : base("rx_git_projRepository", "/", null, 0, false, "3bb2f438-907a-4521-bf73-d81f0bde6e92", ".\\RepositoryImages\\rx_git_projRepository3bb2f438.rximgres")
         {
+            _orangehrmgooglechrome = new rx_git_projRepositoryFolders.OrangeHRMGoogleChromeAppFolder(this);
         }
 
 #region Variables
@@ -60,6 +62,15 @@ namespace rx_git_proj
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The OrangeHRMGoogleChrome folder.
+        /// </summary>
+        [RepositoryFolder("888a87c5-9591-4fea-86cc-f6151953c5a7")]
+        public virtual rx_git_projRepositoryFolders.OrangeHRMGoogleChromeAppFolder OrangeHRMGoogleChrome
+        {
+            get { return _orangehrmgooglechrome; }
+        }
     }
 
     /// <summary>
@@ -68,6 +79,72 @@ namespace rx_git_proj
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
     public partial class rx_git_projRepositoryFolders
     {
+        /// <summary>
+        /// The OrangeHRMGoogleChromeAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("888a87c5-9591-4fea-86cc-f6151953c5a7")]
+        public partial class OrangeHRMGoogleChromeAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _element1747682544Info;
+
+            /// <summary>
+            /// Creates a new OrangeHRMGoogleChrome  folder.
+            /// </summary>
+            public OrangeHRMGoogleChromeAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("OrangeHRMGoogleChrome", "/form[@title='OrangeHRM - Google Chrome']", parentFolder, 30000, null, true, "888a87c5-9591-4fea-86cc-f6151953c5a7", "")
+            {
+                _element1747682544Info = new RepoItemInfo(this, "Element1747682544", "element[@controlid='1747682544']", 30000, null, "94b8779b-30a7-49f9-a1b4-a9a05504a69c");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("888a87c5-9591-4fea-86cc-f6151953c5a7")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("888a87c5-9591-4fea-86cc-f6151953c5a7")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Element1747682544 item.
+            /// </summary>
+            [RepositoryItem("94b8779b-30a7-49f9-a1b4-a9a05504a69c")]
+            public virtual Ranorex.Unknown Element1747682544
+            {
+                get
+                {
+                    return _element1747682544Info.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Element1747682544 item info.
+            /// </summary>
+            [RepositoryItemInfo("94b8779b-30a7-49f9-a1b4-a9a05504a69c")]
+            public virtual RepoItemInfo Element1747682544Info
+            {
+                get
+                {
+                    return _element1747682544Info;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }

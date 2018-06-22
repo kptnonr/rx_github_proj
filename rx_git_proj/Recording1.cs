@@ -79,6 +79,38 @@ namespace rx_git_proj
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://opensource.demo.orangehrmlive.com/' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("http://opensource.demo.orangehrmlive.com/", "chrome", "", false, false, false, false, false);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OrangeHRMGoogleChrome.Element1747682544' at 850;202.", repo.OrangeHRMGoogleChrome.Element1747682544Info, new RecordItemIndex(1));
+            repo.OrangeHRMGoogleChrome.Element1747682544.Click("850;202");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OrangeHRMGoogleChrome.Element1747682544' at 757;335.", repo.OrangeHRMGoogleChrome.Element1747682544Info, new RecordItemIndex(2));
+            repo.OrangeHRMGoogleChrome.Element1747682544.Click("757;335");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OrangeHRMGoogleChrome.Element1747682544' at 753;351.", repo.OrangeHRMGoogleChrome.Element1747682544Info, new RecordItemIndex(3));
+            repo.OrangeHRMGoogleChrome.Element1747682544.Click("753;351");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Admin' with focus on 'OrangeHRMGoogleChrome'.", repo.OrangeHRMGoogleChrome.SelfInfo, new RecordItemIndex(4));
+            repo.OrangeHRMGoogleChrome.Self.PressKeys("Admin");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OrangeHRMGoogleChrome.Element1747682544' at 749;399.", repo.OrangeHRMGoogleChrome.Element1747682544Info, new RecordItemIndex(5));
+            repo.OrangeHRMGoogleChrome.Element1747682544.Click("749;399");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'admin' with focus on 'OrangeHRMGoogleChrome'.", repo.OrangeHRMGoogleChrome.SelfInfo, new RecordItemIndex(6));
+            repo.OrangeHRMGoogleChrome.Self.PressKeys("admin");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OrangeHRMGoogleChrome.Element1747682544' at 725;456.", repo.OrangeHRMGoogleChrome.Element1747682544Info, new RecordItemIndex(7));
+            repo.OrangeHRMGoogleChrome.Element1747682544.Click("725;456");
+            Delay.Milliseconds(200);
+            
         }
 
 #region Image Feature Data
