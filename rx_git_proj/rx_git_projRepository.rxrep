@@ -33,6 +33,26 @@ rxversion="8.1">
 			searchtimeout="30000ms">
 				/form[@title='OrangeHRM - Google Chrome']/element[@controlid='1747682544']
 			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="7f2ce0a5-e995-4b11-9c1d-6f090e932c1a"
+			name="OrangeHRM"
+			refimgid="b153fc46-0535-47b6-93b7-d7ce40510e29"
+			refpath="/form[@title~'^Continuous\ Integration\ wi']/container/container/container[2]/container[2]/tabpagelist/tabpage[@accessiblename='OrangeHRM' and @accessiblerole='PageTab' and @title='OrangeHRM' and @index='5']/text[@accessiblename='OrangeHRM']"
+			searchtimeout="30000ms">
+				/form[@title='OrangeHRM - Google Chrome']/container[@accessiblename~'^Continuous\ Integration\ wi']/container[@accessiblename='Google Chrome']//tabpage[@accessiblerole='PageTab' and @title='OrangeHRM' and @index='5']/text[@accessiblename='OrangeHRM']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="f783b13d-a554-4db0-ab39-ec684901d401"
+			name="Element1614894656"
+			refimgid="9f021258-c404-4af8-9ed8-4c5ad2235635"
+			refpath="/form[@title='OrangeHRM - Google Chrome']/element[@controlid='1614894656']"
+			searchtimeout="30000ms">
+				/form[@title='OrangeHRM - Google Chrome']/element[@controlid='1614894656']
+			</item>
 			<basepath>
 				/form[@title='OrangeHRM - Google Chrome']
 			</basepath>
@@ -51,6 +71,32 @@ hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
 0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
 01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
 AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container"
+		capname="container"
+		id="75f53e42-e22e-422d-82c1-8ea4dd4b48d3"
+		isrooted="True"
+		name="Dropdown"
+		refimgid="6d324e58-6f1f-462a-9061-efe168e0ac29"
+		refpath="/container[@caption='dropdown']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/container[@caption='dropdown']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAABhUlEQVQ4T8WQvUsCYRzHb++F/oSGiMiiV4qWakiiqWyJGiK0cmxw
+kUhtMHqzTuWC0KKh2ZBqsTSHlt6oNkENBF+OoJZCKlO/PY/PGaIXCQ19jw/3e7787sPdcX/OkCOC
+LiGOVruIZqsIhS2BJj6BFnuCnBOoJ3OdJQYFL6LR+ohOWxS9y7cQ/FHkBNVaL2qmfajUeFFF7nno
+uULNoHOD/gK1uit0zx1hdGwBeuEALpcLnPk4gkAkjrtwDPfheAGF5xiug1HcEC5DInzBJ0zMO8Hz
+PLid82fkky26fupo+me3mGDbL0pVqgw+c1DRgNbOBI6zOClp8gvFD5WSE8zw0id4o6SkkV8uhb5B
+GkrNBhPsnkZISSO3LAcVZKBUrzHBnueBlDRyy3JIgqkVJtj3hEhJ/3ZGIv0LdCeLwcklJnAeBvCa
+TOEl+UF4J7xJszz53W+BevEEPeMC2lUWifWCuZS24VV0qDbRN6JjAhpBEGAymWA0GsvCYDDAbDbD
+7XYzwT+G474AUqqnq7MiKz0AAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
 		<basepath>

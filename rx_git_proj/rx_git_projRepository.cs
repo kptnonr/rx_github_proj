@@ -28,6 +28,7 @@ namespace rx_git_proj
     {
         static rx_git_projRepository instance = new rx_git_projRepository();
         rx_git_projRepositoryFolders.OrangeHRMGoogleChromeAppFolder _orangehrmgooglechrome;
+        rx_git_projRepositoryFolders.DropdownAppFolder _dropdown;
 
         /// <summary>
         /// Gets the singleton class instance representing the rx_git_projRepository element repository.
@@ -45,6 +46,7 @@ namespace rx_git_proj
             : base("rx_git_projRepository", "/", null, 0, false, "3bb2f438-907a-4521-bf73-d81f0bde6e92", ".\\RepositoryImages\\rx_git_projRepository3bb2f438.rximgres")
         {
             _orangehrmgooglechrome = new rx_git_projRepositoryFolders.OrangeHRMGoogleChromeAppFolder(this);
+            _dropdown = new rx_git_projRepositoryFolders.DropdownAppFolder(this);
         }
 
 #region Variables
@@ -71,6 +73,15 @@ namespace rx_git_proj
         {
             get { return _orangehrmgooglechrome; }
         }
+
+        /// <summary>
+        /// The Dropdown folder.
+        /// </summary>
+        [RepositoryFolder("75f53e42-e22e-422d-82c1-8ea4dd4b48d3")]
+        public virtual rx_git_projRepositoryFolders.DropdownAppFolder Dropdown
+        {
+            get { return _dropdown; }
+        }
     }
 
     /// <summary>
@@ -86,6 +97,8 @@ namespace rx_git_proj
         public partial class OrangeHRMGoogleChromeAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _element1747682544Info;
+            RepoItemInfo _orangehrmInfo;
+            RepoItemInfo _element1614894656Info;
 
             /// <summary>
             /// Creates a new OrangeHRMGoogleChrome  folder.
@@ -94,6 +107,8 @@ namespace rx_git_proj
                     base("OrangeHRMGoogleChrome", "/form[@title='OrangeHRM - Google Chrome']", parentFolder, 30000, null, true, "888a87c5-9591-4fea-86cc-f6151953c5a7", "")
             {
                 _element1747682544Info = new RepoItemInfo(this, "Element1747682544", "element[@controlid='1747682544']", 30000, null, "94b8779b-30a7-49f9-a1b4-a9a05504a69c");
+                _orangehrmInfo = new RepoItemInfo(this, "OrangeHRM", "container[@accessiblename~'^Continuous\\ Integration\\ wi']/container[@accessiblename='Google Chrome']//tabpage[@accessiblerole='PageTab' and @title='OrangeHRM' and @index='5']/text[@accessiblename='OrangeHRM']", 30000, null, "7f2ce0a5-e995-4b11-9c1d-6f090e932c1a");
+                _element1614894656Info = new RepoItemInfo(this, "Element1614894656", "element[@controlid='1614894656']", 30000, null, "f783b13d-a554-4db0-ab39-ec684901d401");
             }
 
             /// <summary>
@@ -141,6 +156,94 @@ namespace rx_git_proj
                 get
                 {
                     return _element1747682544Info;
+                }
+            }
+
+            /// <summary>
+            /// The OrangeHRM item.
+            /// </summary>
+            [RepositoryItem("7f2ce0a5-e995-4b11-9c1d-6f090e932c1a")]
+            public virtual Ranorex.Text OrangeHRM
+            {
+                get
+                {
+                    return _orangehrmInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The OrangeHRM item info.
+            /// </summary>
+            [RepositoryItemInfo("7f2ce0a5-e995-4b11-9c1d-6f090e932c1a")]
+            public virtual RepoItemInfo OrangeHRMInfo
+            {
+                get
+                {
+                    return _orangehrmInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Element1614894656 item.
+            /// </summary>
+            [RepositoryItem("f783b13d-a554-4db0-ab39-ec684901d401")]
+            public virtual Ranorex.Unknown Element1614894656
+            {
+                get
+                {
+                    return _element1614894656Info.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Element1614894656 item info.
+            /// </summary>
+            [RepositoryItemInfo("f783b13d-a554-4db0-ab39-ec684901d401")]
+            public virtual RepoItemInfo Element1614894656Info
+            {
+                get
+                {
+                    return _element1614894656Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The DropdownAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("75f53e42-e22e-422d-82c1-8ea4dd4b48d3")]
+        public partial class DropdownAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new Dropdown  folder.
+            /// </summary>
+            public DropdownAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Dropdown", "/container[@caption='dropdown']", parentFolder, 30000, null, true, "75f53e42-e22e-422d-82c1-8ea4dd4b48d3", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("75f53e42-e22e-422d-82c1-8ea4dd4b48d3")]
+            public virtual Ranorex.Container Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("75f53e42-e22e-422d-82c1-8ea4dd4b48d3")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
                 }
             }
         }

@@ -111,6 +111,30 @@ namespace rx_git_proj
             repo.OrangeHRMGoogleChrome.Element1747682544.Click("725;456");
             Delay.Milliseconds(200);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OrangeHRMGoogleChrome.OrangeHRM' at 35;9.", repo.OrangeHRMGoogleChrome.OrangeHRMInfo, new RecordItemIndex(8));
+            repo.OrangeHRMGoogleChrome.OrangeHRM.Click("35;9");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'OrangeHRMGoogleChrome.Element1614894656' at 748;345.", repo.OrangeHRMGoogleChrome.Element1614894656Info, new RecordItemIndex(9));
+            repo.OrangeHRMGoogleChrome.Element1614894656.DoubleClick("748;345");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Dropdown' at 63;8.", repo.Dropdown.SelfInfo, new RecordItemIndex(10));
+            repo.Dropdown.Self.Click("63;8");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'OrangeHRMGoogleChrome.Element1614894656' at 739;383.", repo.OrangeHRMGoogleChrome.Element1614894656Info, new RecordItemIndex(11));
+            repo.OrangeHRMGoogleChrome.Element1614894656.DoubleClick("739;383");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'OrangeHRMGoogleChrome.Element1614894656' at 734;397.", repo.OrangeHRMGoogleChrome.Element1614894656Info, new RecordItemIndex(12));
+            repo.OrangeHRMGoogleChrome.Element1614894656.DoubleClick("734;397");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OrangeHRMGoogleChrome.Element1614894656' at 726;447.", repo.OrangeHRMGoogleChrome.Element1614894656Info, new RecordItemIndex(13));
+            repo.OrangeHRMGoogleChrome.Element1614894656.Click("726;447");
+            Delay.Milliseconds(200);
+            
         }
 
 #region Image Feature Data
