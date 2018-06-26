@@ -91,8 +91,8 @@ namespace rx_git_proj
             repo.HRManagementSystemOrangeHRMLHRMa.Element1388912800.Click("466;436");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Onur' with focus on 'HRManagementSystemOrangeHRMLHRMa'.", repo.HRManagementSystemOrangeHRMLHRMa.SelfInfo, new RecordItemIndex(3));
-            repo.HRManagementSystemOrangeHRMLHRMa.Self.PressKeys("Onur");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Onur123' with focus on 'HRManagementSystemOrangeHRMLHRMa'.", repo.HRManagementSystemOrangeHRMLHRMa.SelfInfo, new RecordItemIndex(3));
+            repo.HRManagementSystemOrangeHRMLHRMa.Self.PressKeys("Onur123");
             Delay.Milliseconds(0);
             
         }
