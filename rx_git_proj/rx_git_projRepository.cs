@@ -29,6 +29,8 @@ namespace rx_git_proj
         static rx_git_projRepository instance = new rx_git_projRepository();
         rx_git_projRepositoryFolders.OrangeHRMGoogleChromeAppFolder _orangehrmgooglechrome;
         rx_git_projRepositoryFolders.DropdownAppFolder _dropdown;
+        rx_git_projRepositoryFolders.HRManagementSystemOrangeHRMLHRMaAppFolder _hrmanagementsystemorangehrmlhrma;
+        RepoItemInfo _professionalhrmquoterequestatoranInfo;
 
         /// <summary>
         /// Gets the singleton class instance representing the rx_git_projRepository element repository.
@@ -47,6 +49,8 @@ namespace rx_git_proj
         {
             _orangehrmgooglechrome = new rx_git_projRepositoryFolders.OrangeHRMGoogleChromeAppFolder(this);
             _dropdown = new rx_git_projRepositoryFolders.DropdownAppFolder(this);
+            _hrmanagementsystemorangehrmlhrma = new rx_git_projRepositoryFolders.HRManagementSystemOrangeHRMLHRMaAppFolder(this);
+            _professionalhrmquoterequestatoranInfo = new RepoItemInfo(this, "ProfessionalHRMQuoteRequestAtOran", "/form[@title~'^Professional\\ HRM\\ \\|\\ Quote\\ ']", 30000, null, "223c820f-4cae-427f-92bd-f5216ba0fa09");
         }
 
 #region Variables
@@ -66,6 +70,30 @@ namespace rx_git_proj
         }
 
         /// <summary>
+        /// The ProfessionalHRMQuoteRequestAtOran item.
+        /// </summary>
+        [RepositoryItem("223c820f-4cae-427f-92bd-f5216ba0fa09")]
+        public virtual Ranorex.Form ProfessionalHRMQuoteRequestAtOran
+        {
+            get
+            {
+                 return _professionalhrmquoterequestatoranInfo.CreateAdapter<Ranorex.Form>(true);
+            }
+        }
+
+        /// <summary>
+        /// The ProfessionalHRMQuoteRequestAtOran item info.
+        /// </summary>
+        [RepositoryItemInfo("223c820f-4cae-427f-92bd-f5216ba0fa09")]
+        public virtual RepoItemInfo ProfessionalHRMQuoteRequestAtOranInfo
+        {
+            get
+            {
+                return _professionalhrmquoterequestatoranInfo;
+            }
+        }
+
+        /// <summary>
         /// The OrangeHRMGoogleChrome folder.
         /// </summary>
         [RepositoryFolder("888a87c5-9591-4fea-86cc-f6151953c5a7")]
@@ -81,6 +109,15 @@ namespace rx_git_proj
         public virtual rx_git_projRepositoryFolders.DropdownAppFolder Dropdown
         {
             get { return _dropdown; }
+        }
+
+        /// <summary>
+        /// The HRManagementSystemOrangeHRMLHRMa folder.
+        /// </summary>
+        [RepositoryFolder("c6feec1a-d49f-4fc7-9241-4e6d71d6e437")]
+        public virtual rx_git_projRepositoryFolders.HRManagementSystemOrangeHRMLHRMaAppFolder HRManagementSystemOrangeHRMLHRMa
+        {
+            get { return _hrmanagementsystemorangehrmlhrma; }
         }
     }
 
@@ -244,6 +281,72 @@ namespace rx_git_proj
                 get
                 {
                     return _selfInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The HRManagementSystemOrangeHRMLHRMaAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("c6feec1a-d49f-4fc7-9241-4e6d71d6e437")]
+        public partial class HRManagementSystemOrangeHRMLHRMaAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _element1388912800Info;
+
+            /// <summary>
+            /// Creates a new HRManagementSystemOrangeHRMLHRMa  folder.
+            /// </summary>
+            public HRManagementSystemOrangeHRMLHRMaAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("HRManagementSystemOrangeHRMLHRMa", "/form[@title~'^HR\\ Management\\ System\\ \\|\\ Or']", parentFolder, 30000, null, true, "c6feec1a-d49f-4fc7-9241-4e6d71d6e437", "")
+            {
+                _element1388912800Info = new RepoItemInfo(this, "Element1388912800", "element[@controlid='-1388912800']", 30000, null, "7dfd2eed-df0e-4da7-b850-9bf4fc821fe8");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("c6feec1a-d49f-4fc7-9241-4e6d71d6e437")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("c6feec1a-d49f-4fc7-9241-4e6d71d6e437")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Element1388912800 item.
+            /// </summary>
+            [RepositoryItem("7dfd2eed-df0e-4da7-b850-9bf4fc821fe8")]
+            public virtual Ranorex.Unknown Element1388912800
+            {
+                get
+                {
+                    return _element1388912800Info.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Element1388912800 item info.
+            /// </summary>
+            [RepositoryItemInfo("7dfd2eed-df0e-4da7-b850-9bf4fc821fe8")]
+            public virtual RepoItemInfo Element1388912800Info
+            {
+                get
+                {
+                    return _element1388912800Info;
                 }
             }
         }

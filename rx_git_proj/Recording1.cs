@@ -83,57 +83,17 @@ namespace rx_git_proj
             Host.Current.OpenBrowser("http://opensource.demo.orangehrmlive.com/", "chrome", "", false, false, false, false, false);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OrangeHRMGoogleChrome.Element1747682544' at 850;202.", repo.OrangeHRMGoogleChrome.Element1747682544Info, new RecordItemIndex(1));
-            repo.OrangeHRMGoogleChrome.Element1747682544.Click("850;202");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HRManagementSystemOrangeHRMLHRMa.Element1388912800' at 497;369.", repo.HRManagementSystemOrangeHRMLHRMa.Element1388912800Info, new RecordItemIndex(1));
+            repo.HRManagementSystemOrangeHRMLHRMa.Element1388912800.Click("497;369");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OrangeHRMGoogleChrome.Element1747682544' at 757;335.", repo.OrangeHRMGoogleChrome.Element1747682544Info, new RecordItemIndex(2));
-            repo.OrangeHRMGoogleChrome.Element1747682544.Click("757;335");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HRManagementSystemOrangeHRMLHRMa.Element1388912800' at 466;436.", repo.HRManagementSystemOrangeHRMLHRMa.Element1388912800Info, new RecordItemIndex(2));
+            repo.HRManagementSystemOrangeHRMLHRMa.Element1388912800.Click("466;436");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OrangeHRMGoogleChrome.Element1747682544' at 753;351.", repo.OrangeHRMGoogleChrome.Element1747682544Info, new RecordItemIndex(3));
-            repo.OrangeHRMGoogleChrome.Element1747682544.Click("753;351");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Admin' with focus on 'OrangeHRMGoogleChrome'.", repo.OrangeHRMGoogleChrome.SelfInfo, new RecordItemIndex(4));
-            repo.OrangeHRMGoogleChrome.Self.PressKeys("Admin");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Onur' with focus on 'HRManagementSystemOrangeHRMLHRMa'.", repo.HRManagementSystemOrangeHRMLHRMa.SelfInfo, new RecordItemIndex(3));
+            repo.HRManagementSystemOrangeHRMLHRMa.Self.PressKeys("Onur");
             Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OrangeHRMGoogleChrome.Element1747682544' at 749;399.", repo.OrangeHRMGoogleChrome.Element1747682544Info, new RecordItemIndex(5));
-            repo.OrangeHRMGoogleChrome.Element1747682544.Click("749;399");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'admin' with focus on 'OrangeHRMGoogleChrome'.", repo.OrangeHRMGoogleChrome.SelfInfo, new RecordItemIndex(6));
-            repo.OrangeHRMGoogleChrome.Self.PressKeys("admin");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OrangeHRMGoogleChrome.Element1747682544' at 725;456.", repo.OrangeHRMGoogleChrome.Element1747682544Info, new RecordItemIndex(7));
-            repo.OrangeHRMGoogleChrome.Element1747682544.Click("725;456");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OrangeHRMGoogleChrome.OrangeHRM' at 35;9.", repo.OrangeHRMGoogleChrome.OrangeHRMInfo, new RecordItemIndex(8));
-            repo.OrangeHRMGoogleChrome.OrangeHRM.Click("35;9");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'OrangeHRMGoogleChrome.Element1614894656' at 748;345.", repo.OrangeHRMGoogleChrome.Element1614894656Info, new RecordItemIndex(9));
-            repo.OrangeHRMGoogleChrome.Element1614894656.DoubleClick("748;345");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Dropdown' at 63;8.", repo.Dropdown.SelfInfo, new RecordItemIndex(10));
-            repo.Dropdown.Self.Click("63;8");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'OrangeHRMGoogleChrome.Element1614894656' at 739;383.", repo.OrangeHRMGoogleChrome.Element1614894656Info, new RecordItemIndex(11));
-            repo.OrangeHRMGoogleChrome.Element1614894656.DoubleClick("739;383");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'OrangeHRMGoogleChrome.Element1614894656' at 734;397.", repo.OrangeHRMGoogleChrome.Element1614894656Info, new RecordItemIndex(12));
-            repo.OrangeHRMGoogleChrome.Element1614894656.DoubleClick("734;397");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OrangeHRMGoogleChrome.Element1614894656' at 726;447.", repo.OrangeHRMGoogleChrome.Element1614894656Info, new RecordItemIndex(13));
-            repo.OrangeHRMGoogleChrome.Element1614894656.Click("726;447");
-            Delay.Milliseconds(200);
             
         }
 
